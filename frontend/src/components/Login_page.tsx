@@ -22,7 +22,7 @@ export const Login_page = () => {
   
   const navigate = useNavigate();
 
-  const [user_id, set_user_id] = useRecoilState(user_atom);
+  const [user_id] = useRecoilState(user_atom);
   const [mode, set_mode] = useState(in_mode); // Toggle between "signin" and "signup"
   const [message_box, set_message_box] = useState(false);
   const [message, setMessage] = useState("");

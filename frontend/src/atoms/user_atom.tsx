@@ -1,4 +1,4 @@
-import {atom,atomFamily,selector,selectorFamily} from "recoil";
+import {atom} from "recoil";
 
 
 const user_atom = atom({
