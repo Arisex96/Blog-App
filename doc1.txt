@@ -1,0 +1,41 @@
+12/18/24
+
+https://github.com/100xdevs-cohort-2/week-13.git
+
+https://projects.100xdevs.com/tracks/blog/blog-1
+
+1.
+    npm create hono@latest
+    cd-
+    npm run dev
+    define basic routes like
+    /api/xyz
+    check in post man with other post,put req
+
+2. get postgres from neon db
+    but get acceralte connection pool url
+    generated api key
+
+    npm i prisma
+    npx prisma init
+
+    /we change main db here
+    paste in .env file
+    if not visible comment it out in
+    git ignore and restart vs code
+    paste orginal link from neon db
+    not the acc one
+    as migrations happen in orignal db
+
+    /backend makes connection here
+    go to wrangler.toml
+    uncomment [var]
+    add ur DATABASE_URL
+
+    make the schema n add it (*learn prisma and postgres)
+
+    npx prisma migrate dev --name init_schema
+    npx prisma generate --no-engine
+    npm install @prisma/extension-accelerate
+
+https://hono.dev/docs/helpers/cookie
