@@ -21,7 +21,7 @@ export const app = new Hono<{
 
 // Apply CORS middleware
 app.use(cors({
-  origin: 'https://blog-app-two-jet.vercel.app/', // Allow only this origin
+  origin: 'https://blog-app-git-main-kr96adityas-projects.vercel.app/', // Allow only this origin
   credentials: true, // Allow cookies and credentials
 }));
 
