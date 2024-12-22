@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useRecoilState } from "recoil";
 import user_atom from "../atoms/user_atom";
 
-const MAIN_URL = "http://127.0.0.1:8787";
+const MAIN_URL = "https://my-app.kr96-aditya.workers.dev";
 
 //console.log(in_mode);
 

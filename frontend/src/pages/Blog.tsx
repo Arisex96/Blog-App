@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 
-const MAIN_URL = "http://127.0.0.1:8787";
+const MAIN_URL = "https://my-app.kr96-aditya.workers.dev";
 
 export const Blog = () => {
   console.log("re render");
